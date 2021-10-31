@@ -1,0 +1,99 @@
+.body__iceland {
+	background-image: url("../assets/Images/iceland.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.body__greece {
+	background-image: url("../assets/Images/greece.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.body__hawaii {
+	background-image: url("../assets/Images/hawaii.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.iceland {
+	background-position: center;
+	position: relative;
+	height: 1000px;
+	max-width: 100%;
+}
+
+.life {
+	display: flex;
+	height: 400px;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.life__card {
+	background-color: #ffffff;
+	height: 300px;
+	width: 18%;
+	margin-right: 23.04px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.life__card--title {
+	font-weight: bold;
+	border-bottom: 1px solid #000000;
+	margin: 5px 10px;
+	padding-top: 10px;
+	border-width: medium;
+}
+
+.white {
+	color: white;
+}
+
+.white--margin {
+	margin-bottom: 40px;
+	margin-left: 90px;
+	font-size: 60px;
+	padding-top: 50px;
+}
+
+.life__list {
+	padding: 0;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.life__list--item {
+	list-style-type: none;
+	background-color: #fefaf5;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.footer__iceland {
+	background-color: #fefaf5;
+	margin: 0px;
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.footer-img {
+	background-color: #fefaf5;
+	margin: 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 100%;
+}

@@ -1,0 +1,150 @@
+body {
+	margin: 0px 0px 0px 0px;
+	font-family: verdana;
+}
+
+nav {
+	background-color: #ffffff;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__link {
+	text-decoration: none;
+	color: black;
+	padding-bottom: 5px;
+}
+
+.nav__list {
+	list-style: none;
+	padding: 10px 10px 10px 10px;
+}
+
+.nav-list--orange {
+	color: #db7a4e;
+}
+
+.nav__list--top {
+	display: inline;
+}
+
+.nav__list--left {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	font-size: 20px;
+	margin-right: 90px;
+}
+
+.travel {
+	display: inline;
+	color: #335576;
+	margin: 0px;
+	font-size: 25px;
+	margin-left: 90px;
+}
+
+header {
+	display: inline;
+}
+
+.blue {
+	color: #335576;
+}
+
+.box__title {
+	color: #335576;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.box-list {
+	font-size: 10px;
+}
+
+.box__list--display {
+	list-style: none;
+	padding: 10px 10px 10px 10px;
+	display: inline;
+}
+
+.box__list--orange {
+	list-style: none;
+	font-size: 15px;
+	list-style: none;
+	padding: 10px 10px 10px 10px;
+	color: #db7a4e;
+}
+
+.box__list--blue {
+	list-style: none;
+	font-size: 15px;
+	list-style: none;
+	padding: 10px 10px 10px 10px;
+	color: #335576;
+}
+
+.footer ul {
+	padding-left: 0px;
+}
+
+.footer li {
+	padding-left: 0px;
+}
+
+.box__protect {
+	display: inline-block;
+	padding: 10px 70px 10px 70px;
+	padding-left: 0px;
+}
+
+.protect ul {
+	text-align: center;
+}
+
+.box-list li {
+	padding-left: 0px;
+}
+
+.image {
+	padding: 10px;
+	width: 20px;
+	line-height: 10px;
+	display: inline;
+}
+
+.nav__link--line {
+	border-bottom: 2px solid #db7a4e;
+	border-width: medium;
+}
+
+.footer {
+	background-color: #fefaf5;
+	margin: 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 30px 30px 20px 100px;
+}
+
+.footer__email {
+	margin-right: 10px;
+	margin-bottom: 32px;
+}
+
+.footer__email h3 {
+	margin-top: 5px;
+}
+
+.nav__link:hover {
+	border-bottom: 2px solid blueviolet;
+	border-width: medium;
+	color: red;
+}
+
+.nav__link:hover {
+	border-bottom: 2px solid blueviolet;
+	border-width: medium;
+}
